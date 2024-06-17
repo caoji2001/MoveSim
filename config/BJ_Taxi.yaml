@@ -1,0 +1,8 @@
+rid_emb_dim: 256
+time_emb_dim: 128
+hidden_dim: 64
+discriminator_rid_emb_dim: 64
+discriminator_dropout_p: 0.6
+
+num_rid: 40060
+num_time: 60
