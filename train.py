@@ -118,7 +118,7 @@ if __name__ == '__main__':
     parser.add_argument('--pretrain_g_epoch', type=int, default=100)
     parser.add_argument('--pretrain_d_epoch', type=int, default=20)
     parser.add_argument('--adv_epoch', type=int, default=30)
-    parser.add_argument('--num_Monte_Carlo', type=int, default=4)
+    parser.add_argument('--num_Monte_Carlo', type=int, default=16)
     parser.add_argument('--lr', type=float, default=1e-3)
 
     parser.add_argument('--cuda', type=int, default=0)
